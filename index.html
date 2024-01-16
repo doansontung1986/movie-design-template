@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Import Bootstrap CSS -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Movie Application</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-white" href="./index.html">
+            <img src="./assets/images/logo.webp" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link text-white active"
+                aria-current="page"
+                href="./index.html"
+                >Trang Chủ</a
+              >
+              <a class="nav-link text-white mx-3" href="./movie-list.html"
+                >Phim Lẻ</a
+              >
+              <a class="nav-link text-white mx-3" href="./movie-list.html"
+                >Phim Chiếu Rạp</a
+              >
+              <a class="nav-link text-white mx-3" href="./movie-list.html"
+                >Phim Bộ</a
+              >
+            </div>
+            <div>
+              <a class="nav-link text-white" href="#">
+                <i class="fa-regular fa-user mx-3"></i>
+                Đăng Nhập</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="py-4" id="phim-hot">
+      <div class="container">
+        <h3>PHIM HOT</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-3">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-3">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-3">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4" id="phim-le">
+      <div class="container">
+        <h3>PHIM LẺ</h3>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4" id="phim-chieu-rap">
+      <div class="container">
+        <h3>PHIM CHIẾU RẠP</h3>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4" id="phim-bo">
+      <div class="container">
+        <h3>PHIM BỘ</h3>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+          <div class="col-md-2">
+            <div class="movie-item">
+              <div class="movie-poster">
+                <a href="./movie-detail.html">
+                  <img
+                    src="./assets/images/image-cover.jpg"
+                    alt="image cover"
+                  />
+                </a>
+              </div>
+            </div>
+            <p class="mt-2 text-center">Khắc Tinh Ma Cà Rồng</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+      <div class="support-links">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="coral-logo">
+                <img src="./assets/images/logo.webp" />
+                <p class="text-white">
+                  <span>HDViet</span> là website <i>xem phim online</i> với hơn
+                  10000 <span>phim hay</span> nhất chất lượng HD, phụ đề tiếng
+                  việt được cập nhật liên tục phim mới hàng ngày để phục vụ
+                  người xem.<br />
+                  Đến với HDViet, bạn sẽ có những phút giây thoải mái cùng những
+                  bộ
+                  <a href="#">phim hài</a>
+                  vui nhộn,
+                  <a href="#">phim hành động</a>
+                  đặc sắc... cũng như những bộ phim tâm lý tình cảm Hàn Quốc,
+                  Trung Quốc... Chúc bạn <span>xem phim</span> vui vẻ cùng
+                  HDViet.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3 col-12">
+              <p class="text-white px-4">THỂ LOẠI PHIM</p>
+              <ul class="catalog-list">
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#"
+                    >Xem phim bộ Viễn tưởng</a
+                  >
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Xem phim Cổ Trang</a>
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Xem phim Kinh dị</a>
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Xem phim Tình Cảm</a>
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Xem phim Hài</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-12">
+              <p class="text-white px-4">THẾ GIỚI SAO</p>
+              <ul class="about-us-list">
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Thành Long</a>
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Châu Tinh Trì</a>
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Hồng Kim Bảo</a>
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Châu Kiệt Luân</a>
+                </li>
+                <li class="mb-3">
+                  <a class="nav-link text-white" href="#">Lưu Đức Hoa</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-12 text-white">
+              <p>© 2024 HDViet , Inc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Import JS Bootstrap -->
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
